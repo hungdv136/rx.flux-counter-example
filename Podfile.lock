@@ -1,0 +1,38 @@
+PODS:
+  - PureLayout (3.0.2)
+  - RxCocoa (3.5.0):
+    - RxSwift (~> 3.4)
+  - RxFlux (0.1.0):
+    - RxCocoa (~> 3.5.0)
+    - RxSwift (~> 3.5.0)
+  - RxSwift (3.5.0)
+  - Swinject (2.1.0)
+  - SwinjectStoryboard (1.1.1):
+    - Swinject (~> 2.0)
+
+DEPENDENCIES:
+  - PureLayout
+  - RxFlux (from `https://github.com/hungdv136/rx.flux.git`)
+  - Swinject
+  - SwinjectStoryboard
+
+EXTERNAL SOURCES:
+  RxFlux:
+    :git: https://github.com/hungdv136/rx.flux.git
+
+CHECKOUT OPTIONS:
+  RxFlux:
+    :commit: fcefe90cb5a8197462e290cffbad667ec620c200
+    :git: https://github.com/hungdv136/rx.flux.git
+
+SPEC CHECKSUMS:
+  PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
+  RxCocoa: a0a09f45d0e5b48ecb6a4a7b4b4c89c88d3f633f
+  RxFlux: a138aea61bf78187a58f6db2f7050f9b272a510d
+  RxSwift: 18ee9d78b45edb3b0b7e79916b47a116e6dbc842
+  Swinject: 85e468ac75c5c2d234076f98c591d57d56bc64bc
+  SwinjectStoryboard: 4c71c25f312322844d39ee06f0f523db7b9b10a3
+
+PODFILE CHECKSUM: 16af02045f8cb4bc4e54c51d7aa51c51141fea41
+
+COCOAPODS: 1.2.1

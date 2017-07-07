@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C349D8A1F0F73B30073C6D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C349D891F0F73B30073C6D2 /* AppDelegate.swift */; };
+		7C349D941F0F73B30073C6D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C349D921F0F73B30073C6D2 /* LaunchScreen.storyboard */; };
+		7C349D9E1F0F75260073C6D2 /* CounterViewController+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C349D9C1F0F75260073C6D2 /* CounterViewController+UI.swift */; };
+		7C349D9F1F0F75260073C6D2 /* CounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C349D9D1F0F75260073C6D2 /* CounterViewController.swift */; };
+		7C349DA31F0F75410073C6D2 /* IncreaseAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C349DA11F0F75410073C6D2 /* IncreaseAction.swift */; };
+		7C349DA41F0F75410073C6D2 /* ComplexAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C349DA21F0F75410073C6D2 /* ComplexAction.swift */; };
+		7C349DA71F0F755E0073C6D2 /* CounterStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C349DA61F0F755E0073C6D2 /* CounterStore.swift */; };
+		7C349DAC1F0F75C60073C6D2 /* DependencyInjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C349DA91F0F75C60073C6D2 /* DependencyInjection.swift */; };
+		7C349DAD1F0F75C60073C6D2 /* ViewControllerAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C349DAA1F0F75C60073C6D2 /* ViewControllerAssembly.swift */; };
+		7C349DAE1F0F75C60073C6D2 /* StoreAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C349DAB1F0F75C60073C6D2 /* StoreAssembly.swift */; };
+		B61564703292AC653F8B0981 /* Pods_rx_flux_counter_example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9E57767DF5DA22BD477819C /* Pods_rx_flux_counter_example.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7C349D861F0F73B30073C6D2 /* rx.flux-counter-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rx.flux-counter-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C349D891F0F73B30073C6D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7C349D931F0F73B30073C6D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7C349D951F0F73B30073C6D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C349D9C1F0F75260073C6D2 /* CounterViewController+UI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CounterViewController+UI.swift"; path = "Views/CounterViewController+UI.swift"; sourceTree = "<group>"; };
+		7C349D9D1F0F75260073C6D2 /* CounterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CounterViewController.swift; path = Views/CounterViewController.swift; sourceTree = "<group>"; };
+		7C349DA11F0F75410073C6D2 /* IncreaseAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IncreaseAction.swift; path = Actions/IncreaseAction.swift; sourceTree = "<group>"; };
+		7C349DA21F0F75410073C6D2 /* ComplexAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ComplexAction.swift; path = Actions/ComplexAction.swift; sourceTree = "<group>"; };
+		7C349DA61F0F755E0073C6D2 /* CounterStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CounterStore.swift; path = Stores/CounterStore.swift; sourceTree = "<group>"; };
+		7C349DA91F0F75C60073C6D2 /* DependencyInjection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DependencyInjection.swift; path = DependencyInjection/DependencyInjection.swift; sourceTree = "<group>"; };
+		7C349DAA1F0F75C60073C6D2 /* ViewControllerAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewControllerAssembly.swift; path = DependencyInjection/ViewControllerAssembly.swift; sourceTree = "<group>"; };
+		7C349DAB1F0F75C60073C6D2 /* StoreAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StoreAssembly.swift; path = DependencyInjection/StoreAssembly.swift; sourceTree = "<group>"; };
+		9B1E0F9C50A784AFB00E63AA /* Pods-rx.flux-counter-example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rx.flux-counter-example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rx.flux-counter-example/Pods-rx.flux-counter-example.debug.xcconfig"; sourceTree = "<group>"; };
+		A6B47682DD5187B9CAA50053 /* Pods-rx.flux-counter-example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rx.flux-counter-example.release.xcconfig"; path = "Pods/Target Support Files/Pods-rx.flux-counter-example/Pods-rx.flux-counter-example.release.xcconfig"; sourceTree = "<group>"; };
+		E9E57767DF5DA22BD477819C /* Pods_rx_flux_counter_example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rx_flux_counter_example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7C349D831F0F73B30073C6D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B61564703292AC653F8B0981 /* Pods_rx_flux_counter_example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B358E667C7985108F0C5849 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9E57767DF5DA22BD477819C /* Pods_rx_flux_counter_example.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C349D7D1F0F73B30073C6D2 = {
+			isa = PBXGroup;
+			children = (
+				7C349D881F0F73B30073C6D2 /* rx.flux-counter-example */,
+				7C349D871F0F73B30073C6D2 /* Products */,
+				9FF30E4EE1E8309F4DF7E8DC /* Pods */,
+				7B358E667C7985108F0C5849 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7C349D871F0F73B30073C6D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C349D861F0F73B30073C6D2 /* rx.flux-counter-example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C349D881F0F73B30073C6D2 /* rx.flux-counter-example */ = {
+			isa = PBXGroup;
+			children = (
+				7C349D891F0F73B30073C6D2 /* AppDelegate.swift */,
+				7C349D9B1F0F750F0073C6D2 /* Views */,
+				7C349DA01F0F75300073C6D2 /* Actions */,
+				7C349DA51F0F75450073C6D2 /* Stores */,
+				7C349DA81F0F75B00073C6D2 /* DependencyInjection */,
+				7C349D921F0F73B30073C6D2 /* LaunchScreen.storyboard */,
+				7C349D951F0F73B30073C6D2 /* Info.plist */,
+			);
+			path = "rx.flux-counter-example";
+			sourceTree = "<group>";
+		};
+		7C349D9B1F0F750F0073C6D2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7C349D9D1F0F75260073C6D2 /* CounterViewController.swift */,
+				7C349D9C1F0F75260073C6D2 /* CounterViewController+UI.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		7C349DA01F0F75300073C6D2 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				7C349DA11F0F75410073C6D2 /* IncreaseAction.swift */,
+				7C349DA21F0F75410073C6D2 /* ComplexAction.swift */,
+			);
+			name = Actions;
+			sourceTree = "<group>";
+		};
+		7C349DA51F0F75450073C6D2 /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				7C349DA61F0F755E0073C6D2 /* CounterStore.swift */,
+			);
+			name = Stores;
+			sourceTree = "<group>";
+		};
+		7C349DA81F0F75B00073C6D2 /* DependencyInjection */ = {
+			isa = PBXGroup;
+			children = (
+				7C349DA91F0F75C60073C6D2 /* DependencyInjection.swift */,
+				7C349DAA1F0F75C60073C6D2 /* ViewControllerAssembly.swift */,
+				7C349DAB1F0F75C60073C6D2 /* StoreAssembly.swift */,
+			);
+			name = DependencyInjection;
+			sourceTree = "<group>";
+		};
+		9FF30E4EE1E8309F4DF7E8DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B1E0F9C50A784AFB00E63AA /* Pods-rx.flux-counter-example.debug.xcconfig */,
+				A6B47682DD5187B9CAA50053 /* Pods-rx.flux-counter-example.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7C349D851F0F73B30073C6D2 /* rx.flux-counter-example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C349D981F0F73B30073C6D2 /* Build configuration list for PBXNativeTarget "rx.flux-counter-example" */;
+			buildPhases = (
+				99209C7DBE808838E0C14ADD /* [CP] Check Pods Manifest.lock */,
+				7C349D821F0F73B30073C6D2 /* Sources */,
+				7C349D831F0F73B30073C6D2 /* Frameworks */,
+				7C349D841F0F73B30073C6D2 /* Resources */,
+				0C1D256378167A334E8B5142 /* [CP] Embed Pods Frameworks */,
+				29D8B8D2E485E47B2D37345E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "rx.flux-counter-example";
+			productName = "rx.flux-counter-example";
+			productReference = 7C349D861F0F73B30073C6D2 /* rx.flux-counter-example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7C349D7E1F0F73B30073C6D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ChuCuoi;
+				TargetAttributes = {
+					7C349D851F0F73B30073C6D2 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8R2RDMDGA2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7C349D811F0F73B30073C6D2 /* Build configuration list for PBXProject "rx.flux-counter-example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7C349D7D1F0F73B30073C6D2;
+			productRefGroup = 7C349D871F0F73B30073C6D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C349D851F0F73B30073C6D2 /* rx.flux-counter-example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C349D841F0F73B30073C6D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C349D941F0F73B30073C6D2 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C1D256378167A334E8B5142 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rx.flux-counter-example/Pods-rx.flux-counter-example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29D8B8D2E485E47B2D37345E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rx.flux-counter-example/Pods-rx.flux-counter-example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99209C7DBE808838E0C14ADD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C349D821F0F73B30073C6D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C349D9F1F0F75260073C6D2 /* CounterViewController.swift in Sources */,
+				7C349D8A1F0F73B30073C6D2 /* AppDelegate.swift in Sources */,
+				7C349D9E1F0F75260073C6D2 /* CounterViewController+UI.swift in Sources */,
+				7C349DAE1F0F75C60073C6D2 /* StoreAssembly.swift in Sources */,
+				7C349DA31F0F75410073C6D2 /* IncreaseAction.swift in Sources */,
+				7C349DA71F0F755E0073C6D2 /* CounterStore.swift in Sources */,
+				7C349DAC1F0F75C60073C6D2 /* DependencyInjection.swift in Sources */,
+				7C349DAD1F0F75C60073C6D2 /* ViewControllerAssembly.swift in Sources */,
+				7C349DA41F0F75410073C6D2 /* ComplexAction.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7C349D921F0F73B30073C6D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C349D931F0F73B30073C6D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7C349D961F0F73B30073C6D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7C349D971F0F73B30073C6D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7C349D991F0F73B30073C6D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B1E0F9C50A784AFB00E63AA /* Pods-rx.flux-counter-example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8R2RDMDGA2;
+				INFOPLIST_FILE = "rx.flux-counter-example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ChuCuoi.rx-flux-counter-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7C349D9A1F0F73B30073C6D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6B47682DD5187B9CAA50053 /* Pods-rx.flux-counter-example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8R2RDMDGA2;
+				INFOPLIST_FILE = "rx.flux-counter-example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ChuCuoi.rx-flux-counter-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7C349D811F0F73B30073C6D2 /* Build configuration list for PBXProject "rx.flux-counter-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C349D961F0F73B30073C6D2 /* Debug */,
+				7C349D971F0F73B30073C6D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C349D981F0F73B30073C6D2 /* Build configuration list for PBXNativeTarget "rx.flux-counter-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C349D991F0F73B30073C6D2 /* Debug */,
+				7C349D9A1F0F73B30073C6D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7C349D7E1F0F73B30073C6D2 /* Project object */;
+}
