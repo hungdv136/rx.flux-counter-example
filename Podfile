@@ -5,6 +5,8 @@ target 'rx.flux-counter-example' do
     pod 'RxCocoa', '~> 3.5.0'
     pod 'RxFlux', :git => 'https://github.com/hungdv136/rx.flux.git'
     pod 'PureLayout'
+    pod 'Swinject'
+    pod 'SwinjectStoryboard'
 end
 
 post_install do |installer|
