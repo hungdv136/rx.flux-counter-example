@@ -367,3 +367,12 @@ Pods/Target Support Files/SwinjectStoryboard/SwinjectStoryboard-prefix.pch
 Pods/Target Support Files/SwinjectStoryboard/SwinjectStoryboard-umbrella.h
 Pods/Target Support Files/SwinjectStoryboard/SwinjectStoryboard.modulemap
 Pods/Target Support Files/SwinjectStoryboard/SwinjectStoryboard.xcconfig
+Pods/Pods.xcodeproj/xcuserdata/HungDinh.xcuserdatad/xcschemes/Pods-rx.flux-counter-example.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/HungDinh.xcuserdatad/xcschemes/PureLayout.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/HungDinh.xcuserdatad/xcschemes/RxCocoa.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/HungDinh.xcuserdatad/xcschemes/RxFlux.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/HungDinh.xcuserdatad/xcschemes/RxSwift.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/HungDinh.xcuserdatad/xcschemes/xcschememanagement.plist
+rx.flux-counter-example.xcodeproj/xcuserdata/HungDinh.xcuserdatad/xcschemes/rx.flux-counter-example.xcscheme
+rx.flux-counter-example.xcodeproj/xcuserdata/HungDinh.xcuserdatad/xcschemes/xcschememanagement.plist
+rx.flux-counter-example.xcworkspace/xcuserdata/HungDinh.xcuserdatad/UserInterfaceState.xcuserstate
