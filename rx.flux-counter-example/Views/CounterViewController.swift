@@ -37,7 +37,11 @@ final class CounterViewController: UIViewController {
             .disposed(by: disposeBag)
         
         complexButton.rx.tap
-            .flatMap { ComplexAction().dispatchAsObservable() }
+            .flatMap {
+                ComplexAction()
+                .dispatchAsObservable()
+                .trackingHUD()
+            }
             .do(onNext: { print("========== \($0)") })
             .subscribe()
             .disposed(by: disposeBag)

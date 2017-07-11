@@ -7,6 +7,7 @@ target 'rx.flux-counter-example' do
     pod 'PureLayout'
     pod 'Swinject'
     pod 'SwinjectStoryboard'
+    pod 'SVProgressHUD'
 end
 
 post_install do |installer|

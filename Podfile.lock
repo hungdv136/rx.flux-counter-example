@@ -6,6 +6,7 @@ PODS:
     - RxCocoa (~> 3.5.0)
     - RxSwift (~> 3.5.0)
   - RxSwift (3.5.0)
+  - SVProgressHUD (2.1.2)
   - Swinject (2.1.0)
   - SwinjectStoryboard (1.1.1):
     - Swinject (~> 2.0)
@@ -15,6 +16,7 @@ DEPENDENCIES:
   - RxCocoa (~> 3.5.0)
   - RxFlux (from `https://github.com/hungdv136/rx.flux.git`)
   - RxSwift (~> 3.5.0)
+  - SVProgressHUD
   - Swinject
   - SwinjectStoryboard
 
@@ -32,9 +34,10 @@ SPEC CHECKSUMS:
   RxCocoa: a0a09f45d0e5b48ecb6a4a7b4b4c89c88d3f633f
   RxFlux: a138aea61bf78187a58f6db2f7050f9b272a510d
   RxSwift: 18ee9d78b45edb3b0b7e79916b47a116e6dbc842
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
   Swinject: 85e468ac75c5c2d234076f98c591d57d56bc64bc
   SwinjectStoryboard: 4c71c25f312322844d39ee06f0f523db7b9b10a3
 
-PODFILE CHECKSUM: 252f807970b0893e33fe464ae56a032a368cd9c0
+PODFILE CHECKSUM: c9c34ecd9dedbff4c05c6270294ae1b18d24d246
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.2.1
