@@ -14,12 +14,8 @@ final class CounterStore: Store<CountState> {
         super.init(initialState: CountState())
     }
     
-    override var persistenceTimeout: Double {
-        return 1
-    }
-    
     override func createRules() -> [Rule] {
-        return [CancelRule(ComplexAction.self, cancelBehavior: .latest)]
+        return [UniqueRule(ComplexAction.self, cancelBehavior: .latest)]
     }
 }
 

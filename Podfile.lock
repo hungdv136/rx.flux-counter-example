@@ -26,7 +26,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   RxFlux:
-    :commit: fcefe90cb5a8197462e290cffbad667ec620c200
+    :commit: 69457ceb0ef66cc868886f0651341dbc8b3af666
     :git: https://github.com/hungdv136/rx.flux.git
 
 SPEC CHECKSUMS:
