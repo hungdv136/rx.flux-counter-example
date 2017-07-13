@@ -7,17 +7,22 @@
 //
 
 import RxSwift
+import RxFlux
 import SVProgressHUD
 
-extension ObservableType {
-    func trackingHUD(dismissOnNext: Bool = false) -> Observable<E> {
-        return observeOn(MainScheduler.instance).do(onNext: { _ in
-            guard dismissOnNext else { return }
-            SVProgressHUD.dismiss()
-        }, onSubscribe: {
-            SVProgressHUD.show(withStatus: nil)
-        }, onDispose: {
-            SVProgressHUD.dismiss()
+extension ObservableType where E == ActionEvent {
+    func trackingHUD() -> Observable<E> {
+        return observeOn(MainScheduler.instance).do(onNext: {
+            switch $0 {
+            case .start:
+                SVProgressHUD.show(withStatus: nil)
+                
+            case .completed, .failed:
+                SVProgressHUD.dismiss()
+                
+            case .retry:
+                break
+            }
         })
     }
 }

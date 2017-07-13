@@ -8,14 +8,12 @@
 
 import Foundation
 import RxFlux
+import RxCocoa
+import RxSwift
 
 final class CounterStore: Store<CountState> {
-    init() {
-        super.init(initialState: CountState())
-    }
-    
-    override func createRules() -> [Rule] {
-        return [UniqueRule(ComplexAction.self, cancelBehavior: .latest)]
+    init(dispatcher: Dispatcher, rules: [Rule]? = nil) {
+        super.init(initialState: CountState(), dispatcher: dispatcher, rules: rules ?? [])
     }
 }
 

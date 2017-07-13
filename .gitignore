@@ -409,3 +409,5 @@ Pods/Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch
 Pods/Target Support Files/SVProgressHUD/SVProgressHUD-umbrella.h
 Pods/Target Support Files/SVProgressHUD/SVProgressHUD.modulemap
 Pods/Target Support Files/SVProgressHUD/SVProgressHUD.xcconfig
+rx.flux-counter-example.xcworkspace/xcuserdata/neogov.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist
+rx.flux-counter-example.xcworkspace/xcuserdata/neogov.xcuserdatad/xcdebugger/Expressions.xcexplist

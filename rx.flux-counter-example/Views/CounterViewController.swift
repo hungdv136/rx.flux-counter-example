@@ -37,32 +37,12 @@ final class CounterViewController: UIViewController {
             .disposed(by: disposeBag)
         
         complexButton.rx.tap
-            .flatMap {
-                ComplexAction()
-                .dispatchAsObservable()
-                .trackingHUD()
-            }
-            .do(onNext: { print("========== \($0)") })
+            .flatMap { ComplexAction().dispatchAsObservable() }
+            .trackingHUD()
             .subscribe()
             .disposed(by: disposeBag)
         
         IncreaseAction(additionValue: 1).dispatch()
-    }
-    
-    func test() {
-        let queue: DispatchQueue = DispatchQueue(label: "testing-con", qos: .userInitiated)
-        let formatter = DateFormatter()
-        formatter.timeStyle = .full
-        
-        for i in 1...100 {
-            queue.async {
-                IncreaseAction(additionValue: i)
-                .dispatchAsObservable()
-                .do(onNext: { print("\(i) - \($0) - \(formatter.string(from: Date()))") })
-                .subscribe()
-                .disposed(by: self.disposeBag)
-            }
-        }
     }
     
     // MARK: Properties
