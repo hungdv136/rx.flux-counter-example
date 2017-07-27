@@ -15,5 +15,10 @@ final class ViewControllerAssembly: Assembly {
             let counterStore = r.resolve(CounterStore.self)!
             return CounterViewController(counterStore: counterStore)
         }
+        
+        container.register(TodoViewController.self) { r in
+            let todoStore = r.resolve(TodoStore.self)!
+            return TodoViewController(todoStore: todoStore)
+        }
     }
 }

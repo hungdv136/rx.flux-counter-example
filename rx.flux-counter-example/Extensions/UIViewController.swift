@@ -1,5 +1,5 @@
 //
-//  CounterViewController+UI.swift
+//  UIViewController.swift
 //  rx.flux
 //
 //  Created by Hung Dinh Van on 7/7/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension CounterViewController {
+extension UIViewController {
     func setupView(_ stackView: UIStackView) {
         view.addSubview(stackView)
         view.backgroundColor = UIColor.white

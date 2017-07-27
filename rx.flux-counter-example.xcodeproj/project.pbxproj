@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		7C349D8A1F0F73B30073C6D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C349D891F0F73B30073C6D2 /* AppDelegate.swift */; };
 		7C349D941F0F73B30073C6D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C349D921F0F73B30073C6D2 /* LaunchScreen.storyboard */; };
-		7C349D9E1F0F75260073C6D2 /* CounterViewController+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C349D9C1F0F75260073C6D2 /* CounterViewController+UI.swift */; };
 		7C349D9F1F0F75260073C6D2 /* CounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C349D9D1F0F75260073C6D2 /* CounterViewController.swift */; };
 		7C349DA31F0F75410073C6D2 /* IncreaseAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C349DA11F0F75410073C6D2 /* IncreaseAction.swift */; };
 		7C349DA41F0F75410073C6D2 /* ComplexAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C349DA21F0F75410073C6D2 /* ComplexAction.swift */; };
@@ -18,6 +17,10 @@
 		7C349DAD1F0F75C60073C6D2 /* ViewControllerAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C349DAA1F0F75C60073C6D2 /* ViewControllerAssembly.swift */; };
 		7C349DAE1F0F75C60073C6D2 /* StoreAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C349DAB1F0F75C60073C6D2 /* StoreAssembly.swift */; };
 		7C8ED0071F28303F00AA4A74 /* RxExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8ED0061F28303F00AA4A74 /* RxExtensions.swift */; };
+		7CC540A41F299192000356F9 /* TodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC540A31F299192000356F9 /* TodoViewController.swift */; };
+		7CC540A61F2991A1000356F9 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC540A51F2991A1000356F9 /* UIViewController.swift */; };
+		7CC540A81F2991DE000356F9 /* TodoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC540A71F2991DE000356F9 /* TodoStore.swift */; };
+		7CC540AA1F299806000356F9 /* TodoInitialAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC540A91F299806000356F9 /* TodoInitialAction.swift */; };
 		B61564703292AC653F8B0981 /* Pods_rx_flux_counter_example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9E57767DF5DA22BD477819C /* Pods_rx_flux_counter_example.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,7 +29,6 @@
 		7C349D891F0F73B30073C6D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C349D931F0F73B30073C6D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C349D951F0F73B30073C6D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7C349D9C1F0F75260073C6D2 /* CounterViewController+UI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CounterViewController+UI.swift"; path = "Views/CounterViewController+UI.swift"; sourceTree = "<group>"; };
 		7C349D9D1F0F75260073C6D2 /* CounterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CounterViewController.swift; path = Views/CounterViewController.swift; sourceTree = "<group>"; };
 		7C349DA11F0F75410073C6D2 /* IncreaseAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IncreaseAction.swift; path = Actions/IncreaseAction.swift; sourceTree = "<group>"; };
 		7C349DA21F0F75410073C6D2 /* ComplexAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ComplexAction.swift; path = Actions/ComplexAction.swift; sourceTree = "<group>"; };
@@ -35,6 +37,10 @@
 		7C349DAA1F0F75C60073C6D2 /* ViewControllerAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewControllerAssembly.swift; path = DependencyInjection/ViewControllerAssembly.swift; sourceTree = "<group>"; };
 		7C349DAB1F0F75C60073C6D2 /* StoreAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StoreAssembly.swift; path = DependencyInjection/StoreAssembly.swift; sourceTree = "<group>"; };
 		7C8ED0061F28303F00AA4A74 /* RxExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RxExtensions.swift; path = "rx.flux-counter-example/Extensions/RxExtensions.swift"; sourceTree = "<group>"; };
+		7CC540A31F299192000356F9 /* TodoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TodoViewController.swift; path = Views/TodoViewController.swift; sourceTree = "<group>"; };
+		7CC540A51F2991A1000356F9 /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewController.swift; path = "rx.flux-counter-example/Extensions/UIViewController.swift"; sourceTree = "<group>"; };
+		7CC540A71F2991DE000356F9 /* TodoStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TodoStore.swift; path = Stores/TodoStore.swift; sourceTree = "<group>"; };
+		7CC540A91F299806000356F9 /* TodoInitialAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TodoInitialAction.swift; path = Actions/TodoInitialAction.swift; sourceTree = "<group>"; };
 		9B1E0F9C50A784AFB00E63AA /* Pods-rx.flux-counter-example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rx.flux-counter-example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rx.flux-counter-example/Pods-rx.flux-counter-example.debug.xcconfig"; sourceTree = "<group>"; };
 		A6B47682DD5187B9CAA50053 /* Pods-rx.flux-counter-example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rx.flux-counter-example.release.xcconfig"; path = "Pods/Target Support Files/Pods-rx.flux-counter-example/Pods-rx.flux-counter-example.release.xcconfig"; sourceTree = "<group>"; };
 		E9E57767DF5DA22BD477819C /* Pods_rx_flux_counter_example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rx_flux_counter_example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,8 +102,8 @@
 		7C349D9B1F0F750F0073C6D2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				7CC540A31F299192000356F9 /* TodoViewController.swift */,
 				7C349D9D1F0F75260073C6D2 /* CounterViewController.swift */,
-				7C349D9C1F0F75260073C6D2 /* CounterViewController+UI.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -107,6 +113,7 @@
 			children = (
 				7C349DA11F0F75410073C6D2 /* IncreaseAction.swift */,
 				7C349DA21F0F75410073C6D2 /* ComplexAction.swift */,
+				7CC540A91F299806000356F9 /* TodoInitialAction.swift */,
 			);
 			name = Actions;
 			sourceTree = "<group>";
@@ -115,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				7C349DA61F0F755E0073C6D2 /* CounterStore.swift */,
+				7CC540A71F2991DE000356F9 /* TodoStore.swift */,
 			);
 			name = Stores;
 			sourceTree = "<group>";
@@ -132,6 +140,7 @@
 		7C96D3871F14745C006F12EA /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				7CC540A51F2991A1000356F9 /* UIViewController.swift */,
 				7C8ED0061F28303F00AA4A74 /* RxExtensions.swift */,
 			);
 			name = Extensions;
@@ -271,13 +280,16 @@
 			files = (
 				7C349D9F1F0F75260073C6D2 /* CounterViewController.swift in Sources */,
 				7C349D8A1F0F73B30073C6D2 /* AppDelegate.swift in Sources */,
-				7C349D9E1F0F75260073C6D2 /* CounterViewController+UI.swift in Sources */,
 				7C349DAE1F0F75C60073C6D2 /* StoreAssembly.swift in Sources */,
+				7CC540A61F2991A1000356F9 /* UIViewController.swift in Sources */,
 				7C349DA31F0F75410073C6D2 /* IncreaseAction.swift in Sources */,
+				7CC540A81F2991DE000356F9 /* TodoStore.swift in Sources */,
 				7C349DA71F0F755E0073C6D2 /* CounterStore.swift in Sources */,
 				7C349DAC1F0F75C60073C6D2 /* DependencyInjection.swift in Sources */,
 				7C8ED0071F28303F00AA4A74 /* RxExtensions.swift in Sources */,
 				7C349DAD1F0F75C60073C6D2 /* ViewControllerAssembly.swift in Sources */,
+				7CC540AA1F299806000356F9 /* TodoInitialAction.swift in Sources */,
+				7CC540A41F299192000356F9 /* TodoViewController.swift in Sources */,
 				7C349DA41F0F75410073C6D2 /* ComplexAction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

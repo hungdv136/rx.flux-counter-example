@@ -15,7 +15,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         DI.setup([StoreAssembly(), ViewControllerAssembly()])
         window = UIWindow(frame: UIScreen.main.bounds)
-        window?.rootViewController = DI.resolve() as CounterViewController?
+        if let counterVC = DI.resolve() as CounterViewController?, let todoVC = DI.resolve() as TodoViewController? {
+            let tabBarVC = UITabBarController()
+            let counterNav = UINavigationController(rootViewController: counterVC)
+            let todoNav = UINavigationController(rootViewController: todoVC)
+            counterNav.tabBarItem.title = "Counter"
+            todoNav.tabBarItem.title = "Todo"
+            tabBarVC.viewControllers = [counterNav, todoNav]
+            window?.rootViewController = tabBarVC
+        }
         window?.makeKeyAndVisible()
         return true
     }

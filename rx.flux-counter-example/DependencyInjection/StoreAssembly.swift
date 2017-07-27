@@ -21,5 +21,10 @@ final class StoreAssembly: Assembly {
             let rules = [UniqueRule(ComplexAction.self)]
             return CounterStore(dispatcher: dispatcher, rules: rules)
         }.inObjectScope(.weak)
+        
+        container.register(TodoStore.self) { r in
+            let dispatcher = r.resolve(Dispatcher.self)!
+            return TodoStore(dispatcher: dispatcher)
+        }.inObjectScope(.weak)
     }
 }

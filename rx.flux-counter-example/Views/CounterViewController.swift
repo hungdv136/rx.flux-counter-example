@@ -26,14 +26,14 @@ final class CounterViewController: UIViewController {
         super.viewDidLoad()
         setupView(stackView)
         
-        Observable.merge(minusButton.rx.tap.map { -1 }, plusButton.rx.tap.map { 1 })
-            .flatMap { IncreaseAction(additionValue: $0).dispatchAsObservable() }
-            .subscribe()
-            .disposed(by: disposeBag)
-        
         counterStore.state
             .map { "\($0.currentValue)" }
             .drive(textField.rx.text)
+            .disposed(by: disposeBag)
+        
+        Observable.merge(minusButton.rx.tap.map { -1 }, plusButton.rx.tap.map { 1 })
+            .flatMap { IncreaseAction(additionValue: $0).dispatchAsObservable() }
+            .subscribe()
             .disposed(by: disposeBag)
         
         complexButton.rx.tap
